@@ -1,0 +1,143 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/white-rubber-texture-background_38607-670.jpg?w=2000);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    margin-left: 360px;
+}
+/* Problem with center  */
+.center{
+   /* text-align: center; */ /* I used this code to align all content but didnt work */
+    
+    margin-left: 300px; 
+    
+}
+
+.Mypic {
+    width:200px;
+}
+.Name {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.intro {
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+}
+.about {
+    position: relative;
+    
+}
+.skill {
+    position: relative;
+    
+    
+}
+.aboutbox {
+    display: flex;
+}
+.about p {
+    font-family: Arial, Helvetica,sans-serif;
+    text-align: left;
+    padding-top: 35px;
+    padding-right: 30px;
+    width: auto; 
+    height: 100px;
+    line-height: 1.5em;
+   
+}
+.aboutpic img {
+    
+    width: 200px;
+}
+.introbox{
+    width: 50%;        
+}
+.skillpic img {
+    
+    width: 100px;
+}
+.skillbox {
+    display: flex;
+}
+.skill p {
+    font-family: Arial, Helvetica,sans-serif;
+    text-align: left;
+    
+    padding-right: 30px;
+    width: auto; 
+    height: 100px;
+   
+}
+.skillintrobox{
+    width: 50%;       
+    padding-left: 100px; 
+}
+.skillpic{
+    margin-top: 10px;
+}
+.survey{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.surveyimg img{
+    width: 425px;
+    height: 336px;
+}
+.formbox{
+    position: relative;
+}
+.Registrationform{
+    width: 300px;
+    background-color: rgb(240, 246, 219);
+    padding-bottom: 59px;
+    padding: 10px;
+}
+.inputgroup{
+    font-family: arial;
+}
+.inputgroup input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.inputgroup label{
+    font-size: 20px;
+    margin-bottom: -12px;
+    display: block;
+}
+.reg{
+    text-align: center;
+}
+.btn {
+    padding: 10px;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 75px;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.btn:hover {
+    padding: 10px;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 75px;
+    background-color: rgb(197, 239, 242);
+    border-radius: 15px;
+}
